@@ -3,8 +3,7 @@
       <div className="container-wrapper flex item-center justify-between text-white border-bottom py-4">
         <div className="flex items-center justify-between ">
           <div className="px-2">
-            <button
-            >
+            <button>
               <div className="w-4 h-0.5 bg-white mb-1"></div>
               <div className="w-4 h-0.5 bg-white mb-1"></div>
               <div className="w-4  h-0.5 bg-white"></div>
@@ -12,32 +11,31 @@
           </div>
        
             <div className="text-lg uppercase font-semibold">
-              Balance :<span className="font-color text-lg ml-2">$78,556</span>
+              Balance :<span className="font-color text-lg ml-2">₹ 20,000</span>
             </div>
       
         </div>
         <div className="flex items-center justify-between ">
           <div className="mx-2">
-            <NavLink
+            <router-link
             
               to="#"
               className="btn border-col font-color-blue  px-6 py-2 rounded-full text-lg font-semibold hover:text-white"
             >
               Daily
-            </NavLink>
+            </router-link>
           </div>
           <div className="mx-2">
-            <NavLink
+            <router-link
               to="#"
               className="  btn border-col font-color-blue  px-6 py-2 rounded-full text-lg font-semibold hover:text-white "
             >
               Week
-            </NavLink>
+            </router-link>
           </div>
 
           <div className="mx-2">
             <router-link
-           
               to="#"
               className="btn border-col font-color-blue  px-6 py-2 rounded-full text-lg font-semibold hover:text-white "
             >

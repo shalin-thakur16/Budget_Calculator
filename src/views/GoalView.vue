@@ -1,58 +1,27 @@
 <template>
-    <div class="flex mx-10  w-[400px]">
-    <div class="w-full max-w-xs">
-      <h3 class="font-bold">Goal</h3>
-      <form class=" shadow-md rounded px-8 pt-6 pb-8 mb-4 ">
-        <div class="mb-4">
-          <label 
-            class="block text-gray-700 text-sm font-bold mb-2" >
-            Please Enter Your Goal</label>
-          <input
-            class="shadow appearance-none borderrounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-            type="text"
-            placeholder="Expense" v-model="goal"/>
-        </div>
-        <div class="mb-4">
-          <label 
-            class="block text-gray-700 text-sm font-bold mb-2" >
-            Please Enter Your Goal Amount</label>
-          <input
-            class="shadow appearance-none borderrounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-            type="number"
-            placeholder="Expense Amount" v-model="goal_amount"/>
-        </div>
-        <div class="mb-4">
-          <label 
-            class="block text-gray-700 text-sm font-bold mb-2" >
-            Date/Month</label>
-          <input
-            class="shadow appearance-none borderrounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-            type="date"
-            placeholder="Expense Amount" v-model="date"/>
-        </div>
-        <div class="flex items-center justify-between">
-          <button
-            class="button-bg-color text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-            type="submit" v-on:click="addGoal" >Add Goal</button>
-        </div>
-      </form>
-    </div>
+  <div class="px-4 grad rounded-2xl  mx-2  py-3">
+  <div class="flex justify-between items-center">
+    <p class="text-white text-lg font-semibold">Goal</p>
+    <p class="button-bg-color rounded-full px-2 py-2">
+      <!-- <IoMdAdd class="text-white text-2xl " /> -->
+    </p>
   </div>
+  <div>
+    <p class="text-white text-xl font-normal mt-4 ">
+    Test
+    </p>
+    <p class="text-white text-lg font-semibold mt-2">
+      ₹60000
+      <span class="font-color-blue ml-2">March/April 2022</span>
+    </p>
+    <p class="my-6 text-white text-lg font-semibold ">
+      Save 
+      <span class="font-color text-lg font-semibold mr-2">
+        ₹1000
+      </span>
+      a month
+      <span class="font-color-blue ml-2">(1 year left)</span>
+    </p>
+  </div>
+</div>
 </template>
-<script>
-export default{
-  data(){
-    return{
-       goal:"",
-       goal_amount:500,
-       date:''
-    }
-  },
-  methods:{
-    addGoal(e){
-      e.preventDefault();
-
-    }
-  }
-}
-</script>

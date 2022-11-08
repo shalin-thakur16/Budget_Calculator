@@ -1,18 +1,13 @@
 <template>
 <dashboard-view/>
- 
-  </template>
+</template>
   
-  <script>
-
+<script>
 import DashboardView from './views/DashboardView.vue'
-  // import BarChart from './components/barChart'
   export default {
     name: 'App',
     components: {
-    
-        DashboardView
-   
+        DashboardView 
   }
   }
-  </script>
+</script>

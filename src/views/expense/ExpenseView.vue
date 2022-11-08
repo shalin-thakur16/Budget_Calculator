@@ -15,17 +15,23 @@
         </div>
 
         <div>
-        
+            <ProgressBar/>
         </div>
       </div>
       <div className=" button-bg-color rounded-full ml-2 ">
-        <font-awesome-icon icon="fa-regular fa-arrow-right-long" />
+        <font-awesome-icon :icon="['fas', ' fa-regular fa-arrow-right']"/>
+        <!-- <font-awesome-icon icon="fa-regular fa-arrow-right" /> -->
       </div>
     </div>
 </template>
 <script>
+import ProgressBar from '@/components/ProgressBar.vue';
 export default {
-    props:[
+  components:{
+    ProgressBar,
+
+  },
+   props:[
        'value','total_value','category'
 ],
 }
