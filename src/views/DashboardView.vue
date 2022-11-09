@@ -12,12 +12,8 @@
                 {{currentDate()}}
                 </p>
                 <div class="border-bottom">
-                      <ExpenseView
-                        category="Housing"
-                        value=7000
-                        total_Value=8000
-                      />
-                      <ExpenseView
+                      <ExpenseView/>
+                      <!-- <ExpenseView
                         category="Food"
                         value=1500
                         total_Value=2000
@@ -26,7 +22,7 @@
                         category="Shopping"
                         value=1000
                         total_Value=1500
-                      />
+                      /> -->
                 </div>
             </div>
         </div>

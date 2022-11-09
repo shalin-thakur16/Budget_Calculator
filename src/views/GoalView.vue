@@ -3,7 +3,7 @@
   <div class="flex justify-between items-center">
     <p class="text-white text-lg font-semibold">Goal</p>
     <p class="button-bg-color rounded-full px-2 py-2">
-      <!-- <IoMdAdd class="text-white text-2xl " /> -->
+      <font-awesome-icon :icon="['fa', 'plus']" class="text-white" />
     </p>
   </div>
   <div>
