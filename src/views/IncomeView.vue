@@ -11,9 +11,13 @@
 </template>
 <script>
 export default{
-    props:[
-        'title','place','amount'
-    ]
+data(){
+  return{
+    title:"test",
+    place:"test",
+    amount:7000,
+  }
+}
 
 }
 </script>
